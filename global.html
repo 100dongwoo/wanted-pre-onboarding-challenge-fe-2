@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JSDoc: TODO_LIST</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="styles/prettify-tomorrow.css"
+    />
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <h1 class="page-title">TODO_LIST</h1>
+
+      <section>
+        <header>
+          <h2></h2>
+        </header>
+
+        <article>
+          <div class="container-overview">
+            <dl class="details"></dl>
+          </div>
+
+          <h2 class="subsection-title">Method</h2>
+
+          <h3 class="name" id="create">create</h3>
+          <h5>method : Post</h5>
+          <h5>Parameters (입력 값)</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th class="last">isRequired</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>content</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+                <td class="description last">required</td>
+              </tr>
+              <tr>
+                <td class="name"><code>category</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+                <td class="description last">required</td>
+              </tr>
+              <tr>
+                <td class="name"><code>tags</code></td>
+                <td class="type">
+                  <span class="param-type">String[]</span>
+                </td>
+                <td class="description last">optional</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <h5>Returns (결과값)</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th class="last">isRequired</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+                <td class="type">
+                  <span class="param-type">Number</span>
+                </td>
+
+                <td class="description last">required</td>
+              </tr>
+              <tr>
+                <td class="name"><code>content</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+
+                <td class="description last">required</td>
+              </tr>
+              <tr>
+                <td class="name"><code>isComplete</code></td>
+                <td class="type">
+                  <span class="param-type">Boolean</span>
+                </td>
+
+                <td class="description last">required</td>
+              </tr>
+              <tr>
+                <td class="name"><code>category</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+                <td class="description last">required</td>
+              </tr>
+              <tr>
+                <td class="name"><code>tags</code></td>
+                <td class="type">
+                  <span class="param-type">String[]</span>
+                </td>
+                <td class="description last">optional</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <span class="param-type">Type : object</span>
+          <br />
+          <br />
+          <br />
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line14">line 14</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <hr />
+          <br />
+          <br />
+          <br />
+
+          <!-- 읽기 read        -->
+          <h4 class="name" id="read">
+            READ-All<span class="signature"></span><span> &rarr; Object[]</span>
+          </h4>
+          <h5>method : Get</h5>
+
+          <h5>Returns (결과값) Object[]</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+                <td class="type">
+                  <span class="param-type">Number</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>content</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>isComplete</code></td>
+                <td class="type">
+                  <span class="param-type">Boolean</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>category</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>tags</code></td>
+                <td class="type">
+                  <span class="param-type">String[]</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <span class="param-type">Type : object[]</span>
+
+          <br />
+          <br />
+          <br />
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line22">line 22</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <hr />
+          <br />
+          <br />
+          <br />
+
+          <!-- 읽기 1개 read        -->
+          <h4 class="name" id="readItem">
+            READItem<span class="signature">(id) &rarr; Object</span>
+          </h4>
+          <h5>method : Get</h5>
+
+          <h5>Parameters (입력 값)</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th class="last">isRequired</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+                <td class="type">
+                  <span class="param-type">Number</span>
+                </td>
+                <td class="description last">required</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <h5>Returns (결과값) Object</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+                <td class="type">
+                  <span class="param-type">Number</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>content</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>isComplete</code></td>
+                <td class="type">
+                  <span class="param-type">Boolean</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>category</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>tags</code></td>
+                <td class="type">
+                  <span class="param-type">String[]</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <span class="param-type">Type : object</span>
+
+          <br />
+          <br />
+          <br />
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line32">line 32</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <hr />
+          <br />
+          <br />
+          <br />
+          <!--   삭제 delete       -->
+          <h4 class="name" id="update">
+            UPDATE<span class="signature">(id) &rarr; {object}</span>
+          </h4>
+          <h5>method : Patch</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th class="last">isRequired</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+                <td class="description last">required</td>
+              </tr>
+              <tr>
+                <td class="name"><code>isComplete</code></td>
+                <td class="type">
+                  <span class="param-type">Boolean</span>
+                </td>
+                <td class="description last">optional</td>
+              </tr>
+              <tr>
+                <td class="name"><code>content</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+                <td class="description last">optional</td>
+              </tr>
+              <tr>
+                <td class="name"><code>category</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+                <td class="description last">optional</td>
+              </tr>
+              <tr>
+                <td class="name"><code>tags</code></td>
+                <td class="type">
+                  <span class="param-type">String[]</span>
+                </td>
+                <td class="description last">optional</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <h5>Returns (결과값)</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+                <td class="type">
+                  <span class="param-type">Number</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>content</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>isComplete</code></td>
+                <td class="type">
+                  <span class="param-type">Boolean</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>category</code></td>
+                <td class="type">
+                  <span class="param-type">String</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="name"><code>tags</code></td>
+                <td class="type">
+                  <span class="param-type">String[]</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <span class="param-type">Type : object</span>
+          <br />
+          <br />
+          <br />
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line46">line 46</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <hr />
+          <br />
+          <br />
+          <br />
+
+          <h4 class="name" id="delete">
+            DELETE<span class="signature">(id)</span>
+          </h4>
+          <h5>Parameters (입력 값)</h5>
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th class="last">isRequired</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+                <td class="type">
+                  <span class="param-type">Number</span>
+                </td>
+                <td class="description last">required</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+
+          <br />
+          <br />
+          <br />
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line58">line 58</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <hr />
+          <br />
+          <br />
+          <br />
+          <h4 class="name" id="allDelete">
+            ALL-DELETE<span class="signature"></span>
+          </h4>
+          <br />
+          <br />
+          <br />
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line67">line 67</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <hr />
+          <br />
+          <br />
+          <br />
+          <br />
+          <!--          <h4 class="name" id="modeling">-->
+          <!--            MODELING<span class="signature">(id) &rarr; {object}</span>-->
+          <!--          </h4>-->
+        </article>
+      </section>
+    </div>
+
+    <nav>
+      <h3>TODO_Method</h3>
+      <ul>
+        <li><a href="global.html#create">CREATE</a></li>
+        <li><a href="global.html#read">READ</a></li>
+        <li><a href="global.html#readItem">READ-Item</a></li>
+        <li><a href="global.html#update">UPDATE</a></li>
+        <li><a href="global.html#delete">DELETE</a></li>
+        <li><a href="global.html#allDelete">ALL-DELETE</a></li>
+
+        <!--        <li><a href="global.html#modeling">Modeling (Shape) </a></li>-->
+      </ul>
+    </nav>
+
+    <br class="clear" />
+
+    <footer>
+      Documentation generated by
+      <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Sat Jan 28
+      2023 16:19:13 GMT+0900 (Korean Standard Time)
+    </footer>
+
+    <script>
+      prettyPrint();
+    </script>
+    <script src="scripts/linenumber.js"></script>
+  </body>
+</html>
