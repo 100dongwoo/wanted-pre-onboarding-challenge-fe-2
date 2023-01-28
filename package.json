@@ -1,14 +1,18 @@
 {
 	"name": "jsdoc-boilerplate",
 	"version": "1.0.0",
-	"description": "",
+	"description": "원티드 2023 2월 프리온보딩 챌린지 사전 과제",
 	"main": "index.js",
 	"scripts": {
-		"docs": "jsdoc -c jsdoc.json"
+		"docs": "jsdoc -c jsdoc.json",
+		"predeploy": "yarn docs",
+		"deploy": "gh-pages -d docs"
 	},
 	"devDependencies": {
+		"gh-pages": "^5.0.0",
 		"jsdoc": "^3.6.11"
 	},
+	"homepage" : "https://100dongwoo.github.io/wanted-pre-onboarding-challenge-fe-2",
 	"dependencies": {
 		"prettier": "^2.8.3"
 	}
